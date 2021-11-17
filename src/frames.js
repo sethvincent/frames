@@ -26,7 +26,7 @@ function sendMessage(type, data = {}) {
  * @returns {number}
  */
 function getDocumentHeight() {
-    return Math.max(
+  return Math.max(
     document.body.scrollHeight,
     document.body.offsetHeight,
     document.documentElement.clientHeight,
