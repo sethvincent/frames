@@ -26,7 +26,13 @@ function sendMessage(type, data = {}) {
  * @returns {number}
  */
 function getDocumentHeight() {
-  return document.documentElement.offsetHeight;
+    return Math.max(
+    document.body.scrollHeight,
+    document.body.offsetHeight, 
+    document.documentElement.clientHeight,
+    document.documentElement.scrollHeight,
+    document.documentElement.offsetHeight
+  );
 }
 
 /**
