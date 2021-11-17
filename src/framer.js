@@ -1,11 +1,11 @@
-import { extend, getMatchingAttributes } from './utils.mjs';
+import { extend, getMatchingAttributes } from './utils.js';
 import {
   AMP_SENTINEL,
   EMBED_SIZE,
   FRAME_PREFIX,
   FRAME_AUTO_INITIALIZED_ATTRIBUTE,
   FRAME_SRC_ATTRIBUTE,
-} from './constants.mjs';
+} from './constants.js';
 
 /**
  * The Framer object to be called in the host page. Effectively a wrapper around

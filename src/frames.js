@@ -1,6 +1,6 @@
 // internal
-import { AMP_SENTINEL, EMBED_SIZE } from './constants.mjs';
-import { extend } from './utils.mjs';
+import { AMP_SENTINEL, EMBED_SIZE } from './constants.js';
+import { extend } from './utils.js';
 
 /**
  * A wrapper around postMessage to normalize the message body. Automatically
@@ -28,7 +28,7 @@ function sendMessage(type, data = {}) {
 function getDocumentHeight() {
     return Math.max(
     document.body.scrollHeight,
-    document.body.offsetHeight, 
+    document.body.offsetHeight,
     document.documentElement.clientHeight,
     document.documentElement.scrollHeight,
     document.documentElement.offsetHeight
