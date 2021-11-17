@@ -9,4 +9,4 @@ export {
   sendHeightOnLoad,
   sendHeightOnPoll,
   sendHeightOnResize,
-} from './frames.mjs';
+} from './frames.js';
