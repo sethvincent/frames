@@ -30,7 +30,6 @@ function getDocumentHeight() {
     document.body.scrollHeight,
     document.body.offsetHeight,
     document.documentElement.clientHeight,
-    document.documentElement.scrollHeight,
     document.documentElement.offsetHeight
   );
 }
